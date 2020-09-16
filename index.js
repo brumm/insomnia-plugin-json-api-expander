@@ -4,8 +4,6 @@ const { default: expandJSONApiResponse } = require('redux-object')
 module.exports.responseHooks = [
   (context) => {
     if (context.request.hasHeader('x-expand-jsonapi')) {
-      context.request.removeHeader('x-expand-jsonapi')
-
       const body = context.response.getBody()
       const data = JSON.parse(Buffer.from(body).toString())
 
