@@ -1,0 +1,24 @@
+{
+  "name": "insomnia-plugin-json-api-expander",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "insomnia": {
+    "name": "json-api-expander",
+    "displayName": "JSON:API Response Expander",
+    "description": "Formats and expands JSON:API responses if `X-Expand-JSONAPI` header is present on the request"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "json:api",
+    "expand",
+    "format"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json-api-normalizer": "^1.0.0",
+    "redux-object": "^0.5.10"
+  }
+}
