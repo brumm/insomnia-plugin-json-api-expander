@@ -1,8 +1,9 @@
 {
   "name": "insomnia-plugin-json-api-expander",
   "version": "0.1.0",
-  "description": "",
+  "description": "Formats and expands JSON:API responses if `X-Expand-JSONAPI` header is present on the request",
   "main": "index.js",
+  "repository": "github:brumm/insomnia-plugin-json-api-expander",
   "insomnia": {
     "name": "json-api-expander",
     "displayName": "JSON:API Response Expander",
@@ -15,7 +16,7 @@
     "expand",
     "format"
   ],
-  "author": "",
+  "author": "Philipp Brumm <oss@brumm.af>",
   "license": "MIT",
   "dependencies": {
     "json-api-normalizer": "^1.0.0",
